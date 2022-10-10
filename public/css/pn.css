@@ -1,0 +1,307 @@
+body {
+    margin: 0%;
+}
+
+.revolutionaries {
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 20%;
+    border-width: thick;
+    border-style: groove;
+    border-color: black;
+}
+
+.revolutionaries:hover {
+    border: none;
+    border-style: none;
+    box-shadow: 2px 2px 20px red;
+}
+
+.welcomeDiv {
+    margin: 35px 70px 5px 70px;
+    text-align: center;
+    color: green;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20px;
+}
+
+.welcomeDiv:hover {
+    background-image: url(25.jpg);
+    box-shadow: 2px 2px 10px green;
+    color: white;
+}
+
+.p {
+    background-color: teal;
+    height: 25px;
+    width: 100%;
+    color: white;
+    margin-top: 2px;
+}
+
+.lcd {
+    background-image: url(34.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 20px orange;
+    width: 24%;
+    height: 300px;
+    float: left;
+    margin: 30px 0.5% 3px 0.5%;
+    overflow: hidden;
+    border-radius: 20px;
+    border-width: thick;
+    border-style: none;
+    border-color: white;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y:scroll ;
+}
+
+.lcd:hover {
+    border: none;
+    border-style: none;
+    box-shadow: 2px 2px 20px red;
+}
+
+.container-image {
+    height: 40%;
+    width: 60%;
+    align-self: center;
+    margin: 20% 15% 5px 19%;
+    border-radius: 20px;
+    border-style: outset;
+    border-color: grey;
+    box-shadow: 2px 2px 20px rebeccapurple;
+}
+
+.container-image:hover {
+    box-shadow: 2px 2px 20px orange;
+    border-style: none;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.namefoot {
+    text-align: center;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 20px;
+    font-stretch: extra-condensed;
+    box-shadow: 2px 2px 20px saddlebrown;
+    width: 95%;
+    border-radius: 0px 20px 20px 0px;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.textfoot {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    font-stretch: extra-condensed;
+    box-shadow: 2px 2px 20px saddlebrown;
+    width: 95%;
+    margin: 20px 2.5% 5px 2.5%;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    box-shadow: 2px 2px 20px 5px red;
+}
+
+.add_btn {
+    background-color: red;
+    margin-top: 2px;
+    border-radius: 10px;
+    width: 10%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    font-size: larger;
+}
+
+.add_btn:hover {
+    background-color: white;
+    color: green;
+    box-shadow: 2px 2px 20px black;
+}
+
+#marquee_div {
+    width: 95%;
+    margin: 0px 2.5% 0px 2.5%;
+}
+
+.contact {
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+    height: 350px;
+    position: relative
+}
+
+.contact_child {
+    width: 48%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+#container-f {
+    height: 690px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#contact_image {
+    width: 50%;
+    margin: 10% 10% 5% 20%;
+    box-shadow: 2px 2px 20px 5px white;
+    border-radius: 20px;
+}
+
+.contact_img_label {
+    color: white;
+    font-weight: bold;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    margin-left: 15%;
+    box-shadow: 2px 2px 20px orange;
+}
+
+.contact_img_label_call {
+    color: white;
+    font-weight: bold;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 20px orange;
+}
+
+.social_media {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0% 5% 4% 5%;
+    box-shadow: 2px 2px 20px 5px red;
+}
+
+.social_media:hover {
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px white;
+    border-style: groove;
+    border-color: red;
+    border-width: thick;
+}
+
+#address {
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px white;
+}
+
+.popup_img {
+    margin: 10px 25% 10px 25%;
+    box-shadow: 2px 2px 20px 20px orange;
+    border-radius: 20px;
+}
+
+.popup_label {
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px black;
+}
+.lango{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px teal;
+}
+
+@media screen and (max-width: 768px) {
+    .lcd {
+        width: 96%;
+        height: 300px;
+        margin-top: 5px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #container-f {
+        height: 620px;
+        width: 100%;
+        margin-bottom: 20px;
+        overflow: hidden;
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
+    .contact {
+        margin-top: 20px;
+        width: 100%;
+        background-color: black;
+        height: 200px;
+    }
+    .contact_child {
+        width: 50%;
+        height: 100%;
+        float: left;
+        margin-left: 0px;
+    }
+    .social_media {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin: 0% 2% 7% 2%;
+        box-shadow: 2px 2px 20px 5px red;
+    }
+    .social_media:hover {
+        border-radius: 5px;
+        box-shadow: 2px 2px 20px white;
+        border-style: groove;
+        border-color: red;
+        border-width: thick;
+    }
+    #call {
+        display: none;
+    }
+    #mail {
+        display: none;
+    }
+    #location {
+        display: none;
+    }
+    #address {
+        display: none;
+    }
+    .contact_img_label_call {
+        display: none;
+    }
+    .popup_img {
+        margin: 2.5%;
+        margin-bottom: 30px;
+        width: 95%;
+        height: 190px;
+    }
+}
